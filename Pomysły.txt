@@ -1,0 +1,22 @@
+Nowe przedmioty:
+-rapka - szansa na drop z kurczaka
+-złota rapka - crafting 1 rapka, 8 samorodków złota
+-trzylistna/czterolistna koniczyna - szansa na drop z trawy
+-szmaragdowe oko pająka - crafting 1 oko pajaka, 4 szmaragdy 
+-serce delfina - mała szansa na drop z delfina
+
+
+Zastosowanie dla kotła - Wywary:
+	- wywar kolagenowy - składnik: rapka - znacząco zmniejsza obrażenia od upadku
+	- wywar szczęścia - składnik: czterolistna koniczyna - zwiększa poziom efektu Luck
+	- wywar łowcy - składnik: szmaragdowe oko pająka - pokazuje położenie najbliższych mobów za pomocą efektu Glowing
+	- wywar z delfina - składnik: serce delfina - nakłada efekt Dolphin's Grace na gracza
+
+Sposób przyrządzenia wywaru, naciśnięcie prawym przyciskiem myszy na kocioł z danym
+gdy kocioł jest wypełniony ogniem, gotowanie zaczyna się gdy kocioł znajduje się nad
+ogniem (ognisko, ogień).
+
+W zależności od ilości sztuk danego składnika jest wyższy lub niższy poziom efektu od 1 do 6.
+
+Może działać tylko jeden wywar na raz, wypicie dwóch wywarów których efekty by działały
+w tym samym czasie zatruwa gracza, do momentu samoistnego usunięcia się efektu.
