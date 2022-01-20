@@ -1,25 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "chickenmadness",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Chicken Madness Mod",
+  "description": "nice cock",
   "authors": [
-    "Me!"
+    "Macias",
+    "OguleG",
+    "GMR"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "phone": "781452062",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/chickenmadness/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.chickenmadness.ChickenMadness"
     ]
   },
   "mixins": [
