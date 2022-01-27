@@ -1,5 +1,6 @@
 package net.chickenmadness;
 
+import net.chickenmadness.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,6 +18,7 @@ public class ChickenMadness implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}

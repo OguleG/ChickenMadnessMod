@@ -10,6 +10,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
+    public static final Item Emerald_spider_eye = registerItem("emerald_spider_eye", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name), item);
     }
