@@ -21,5 +21,6 @@ public class ChickenMadness implements ModInitializer {
 		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Welcome to Chicken Madness!");
 	}
 }

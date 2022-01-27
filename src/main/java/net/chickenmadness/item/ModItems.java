@@ -14,7 +14,8 @@ public class ModItems {
     public static final Item emerald_spider_eye = registerItem("emerald_spider_eye", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item lucky_grass = registerItem( "lucky_grass",new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item three_leaf_clover = registerItem("three_leaf_clover",new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
+    public static final Item chicken_rapka = registerItem("chicken_rapka", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item golden_chicken_rapka = registerItem("golden_chicken_rapka", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name), item);
