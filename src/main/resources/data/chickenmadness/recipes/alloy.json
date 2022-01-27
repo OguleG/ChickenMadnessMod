@@ -1,9 +1,13 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:iron_ingot",
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
   "addition":{
-    "item": "minecraft:copper_ingot"
+    ".": {
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
