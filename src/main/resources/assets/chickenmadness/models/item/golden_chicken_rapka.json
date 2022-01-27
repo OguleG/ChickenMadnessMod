@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chickenmadness:items/golden_chicken_rapka"
+    "layer0": "chickenmadness:item/golden_chicken_rapka"
   }
 }

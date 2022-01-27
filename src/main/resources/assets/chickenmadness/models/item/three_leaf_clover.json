@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chickenmadness:items/three_leaf_clover"
+    "layer0": "chickenmadness:item/three_leaf_clover"
   }
 }
