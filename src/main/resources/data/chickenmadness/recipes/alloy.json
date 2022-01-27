@@ -1,16 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    }
-  },
+      "tag": "minecraft:iron_ingot"
+    },
   "addition":{
-    ".": {
-      "item": "minecraft:copper_ingot"
-    }
-  },
+      "tag": "minecraft:copper_ingot"
+    },
   "result": {
-    "item": "chickenmadness:alloy"
+    "tag": "chickenmadness:alloy"
   }
 }
