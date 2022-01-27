@@ -10,6 +10,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
+
     public static final Item Emerald_spider_eye = registerItem("emerald_spider_eye", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item Lucky_grass = registerItem( "Lucky_grass",new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item three_leaf_clover = registerItem("three_leaf_clover",new Item(new FabricItemSettings().group(ItemGroup.MISC)));
