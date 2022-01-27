@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #"
+    "#.#",
+    "#z#"
+  ],
+  "key": {
+    "#": {
+       "item": "minecraft:iron_ingot"
+    },
+    ".": {
+      "item": "minecraft:redstone"
+    },
+    "z":{
+       "item":"minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "chickenmadness:cauldron"
+  }
+}

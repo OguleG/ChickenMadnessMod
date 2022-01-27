@@ -10,11 +10,19 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.function.BooleanBiFunction;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
+
+import static net.minecraft.block.Block.createCuboidShape;
 
 public class ModBlocks {
+
+
+
     public static final Block cauldron = registerBlock("cauldron",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)
+            new CauldronBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f)
                     .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
