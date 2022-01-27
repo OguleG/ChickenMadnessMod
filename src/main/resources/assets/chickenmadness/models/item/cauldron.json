@@ -1,3 +1,6 @@
 {
-  "parent": "chickenmadness:block/cauldron"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chickenmadness:item/cauldron"
+  }
 }
