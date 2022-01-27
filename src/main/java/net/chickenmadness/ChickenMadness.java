@@ -1,5 +1,6 @@
 package net.chickenmadness;
 
+import net.chickenmadness.block.ModBlocks;
 import net.chickenmadness.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
@@ -19,6 +20,7 @@ public class ChickenMadness implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registarModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 		LOGGER.info("Welcome to Chicken Madness!");
