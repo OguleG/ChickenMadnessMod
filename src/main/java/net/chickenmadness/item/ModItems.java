@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item dolphin_heart = registerItem("dolphin_heart", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item record_cobble = registerItem("record_cobble", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item record_old = registerItem("record_old", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item record_rest = registerItem("record_rest", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name), item);
