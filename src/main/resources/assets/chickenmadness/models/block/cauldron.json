@@ -1,6 +1,9 @@
 {
     "parent":"block/cube_all",
     "textures": {
-        "all":"chickenmadness:block/cauldron"
+        "top":"chickenmadness:block/cauldron_top",
+        "inner":"chickenmadness:block/cauldron_inner",
+        "side":"chickenmadness:block/cauldron_side",
+        "bottom":"chickenmadness:block/cauldron_bottom"
     }
 }
