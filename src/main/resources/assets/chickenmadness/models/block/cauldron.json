@@ -2,11 +2,11 @@
     "ambientocclusion": false,
     "parent": "block/block",
     "textures": {
-        "particle": "block/cauldron_side",
-        "top": "block/cauldron_top",
-        "bottom": "block/cauldron_bottom",
-        "side": "block/cauldron_side",
-        "inside": "block/cauldron_inner"
+        "particle": "chickenmadness:block/cauldron_side",
+        "top": "chickenmadness:block/cauldron_top",
+        "bottom": "chickenmadness:block/cauldron_bottom",
+        "side": "chickenmadness:block/cauldron_side",
+        "inside": "chickenmadness:block/cauldron_inner"
     },
     "elements": [
         {
