@@ -5,5 +5,13 @@
   },
   "result": "chickenmadness:c_rapka",
   "experience": 0.35,
-  "cookingtime": 200
+  "cookingtime": 200,
+
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "chickenmadness:chicken_rapka"
+  },
+  "result": "chickenmadness:c_rapka",
+  "experience": 0.15,
+  "cookingtime": 100
 }
