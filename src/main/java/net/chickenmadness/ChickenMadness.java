@@ -2,6 +2,7 @@ package net.chickenmadness;
 
 import net.chickenmadness.block.ModBlocks;
 import net.chickenmadness.item.ModItems;
+import net.chickenmadness.registry.LootTableRegister;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,6 +22,7 @@ public class ChickenMadness implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModBlocks.registarModBlocks();
+		LootTableRegister.register();
 
 		LOGGER.info("Hello Fabric world!");
 		LOGGER.info("Welcome to Chicken Madness!");
