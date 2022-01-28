@@ -13,10 +13,10 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.05
+                  "chance": 1
                 }
               ],
-              "name": "chickenmadness:lucky_grass",
+              "name":"chickenmadness:lucky_grass"
             }
           ]
         }
