@@ -11,7 +11,7 @@
     },
     ".": {
       "item": "chickenmadness:chicken_rapka"
-    },
+    }
   },
   "result": {
     "item": "chickenmadness:golden_chicken_rapka.json"
