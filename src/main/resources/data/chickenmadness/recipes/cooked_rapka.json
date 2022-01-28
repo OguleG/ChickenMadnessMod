@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "chickenmadness:chicken_rapka"
   },
-  "result": "chickenmadness:c_rapka",
+  "result": "chickenmadness:cooked_rapka",
   "experience": 0.35,
   "cookingtime": 200,
 
@@ -11,7 +11,7 @@
   "ingredient": {
     "item": "chickenmadness:chicken_rapka"
   },
-  "result": "chickenmadness:c_rapka",
+  "result": "chickenmadness:cooked_rapka",
   "experience": 0.15,
   "cookingtime": 100,
 
@@ -19,7 +19,7 @@
   "ingredient": {
     "item": "chickenmadness:chicken_rapka"
   },
-  "result": "chickenmadness:c_rapka",
+  "result": "chickenmadness:cooked_rapka",
   "experience": 0.15,
   "cookingtime": 600
 }
