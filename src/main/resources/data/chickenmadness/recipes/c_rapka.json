@@ -13,5 +13,13 @@
   },
   "result": "chickenmadness:c_rapka",
   "experience": 0.15,
-  "cookingtime": 100
+  "cookingtime": 100,
+
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "chickenmadness:chicken_rapka"
+  },
+  "result": "chickenmadness:c_rapka",
+  "experience": 0.15,
+  "cookingtime": 600
 }
