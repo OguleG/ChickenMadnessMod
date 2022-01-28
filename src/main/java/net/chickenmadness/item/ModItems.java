@@ -22,7 +22,7 @@ public class ModItems {
     public static final Item record_old = registerItem("record_old", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item record_rest = registerItem("record_rest", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item alloy = registerItem("alloy", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    public static final Item cooked_rapka = registerItem("cooked_rapka", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item c_rapka = registerItem("c_rapka", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name), item);
