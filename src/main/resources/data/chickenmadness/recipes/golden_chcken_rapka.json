@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#.#",
+    "###"
+  ],
+  "key": {
+    "#": {
+       "item": "minecraft:glod_ingot"
+    },
+    ".": {
+      "item": "chickenmadness:chicken_rapka"
+    },
+  },
+  "result": {
+    "item": "chickenmadness:golden_chicken_rapka.json"
+  }
+}
