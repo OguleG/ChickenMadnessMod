@@ -21,7 +21,7 @@ public class ChickenMadness implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
-		ModBlocks.registarModBlocks();
+		ModBlocks.registerModBlocks();
 		LootTableRegister.register();
 
 		LOGGER.info("Hello Fabric world!");

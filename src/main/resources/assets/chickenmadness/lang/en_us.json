@@ -10,5 +10,6 @@
   "item.chickenmadness.record_rest": "Music Disc - Rest",
   "block.chickenmadness.cauldron": "Mysterious Cauldron",
   "item.chickenmadness.alloy": "Alloy",
-  "item.chickenmadness.cooked_rapka": "Cooked Rapka"
+  "item.chickenmadness.cooked_rapka": "Cooked Rapka",
+  "itemGroup.chickenmadness.chicken_madness": "Chicken Madness Mod"
 }

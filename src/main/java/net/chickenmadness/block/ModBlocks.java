@@ -1,6 +1,7 @@
 package net.chickenmadness.block;
 
 import net.chickenmadness.ChickenMadness;
+import net.chickenmadness.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
@@ -31,9 +32,9 @@ public class ModBlocks {
     }
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(ItemGroup.MISC)));
+                new BlockItem(block, new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     }
-    public static void registarModBlocks(){
+    public static void registerModBlocks(){
         System.out.println("Registring ModBlocks for"+ ChickenMadness.MOD_ID);
     }
 }
