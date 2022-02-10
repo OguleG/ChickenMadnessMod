@@ -33,7 +33,7 @@ public class ModBlocks {
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(ItemGroup.MISC)));
     }
-    public static void registarModBlocks(){
+    public static void registerModBlocks(){
         System.out.println("Registring ModBlocks for"+ ChickenMadness.MOD_ID);
     }
 }
