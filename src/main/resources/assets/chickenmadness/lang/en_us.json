@@ -11,5 +11,12 @@
   "block.chickenmadness.cauldron": "Mysterious Cauldron",
   "item.chickenmadness.alloy": "Alloy",
   "item.chickenmadness.cooked_rapka": "Cooked Rapka",
+  "item.chickenmadness.decoction_of_luck":"Decoction of Luck",
+  "item.chickenmadness.rapka_decoction":"Rapka Decoction",
+  "item.chickenmadness.dol_decoction":"Dolphin Decoction",
   "itemGroup.chickenmadness.chicken_madness": "Chicken Madness Mod"
+
+
+
+
 }

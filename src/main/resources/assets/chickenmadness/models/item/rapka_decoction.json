@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chickenmadness:item/alloy"
+    "layer0": "chickenmadness:item/rapka_decoction"
   }
 }
