@@ -19,9 +19,7 @@ import net.minecraft.util.shape.VoxelShapes;
 import static net.minecraft.block.Block.createCuboidShape;
 
 public class ModBlocks {
-
-
-
+    
     public static final Block cauldron = registerBlock("cauldron",
             new CauldronBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f)
                     .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
@@ -29,7 +27,7 @@ public class ModBlocks {
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(ChickenMadness.MOD_ID,name),block);
-    }
+    }   
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registry.ITEM, new Identifier(ChickenMadness.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));

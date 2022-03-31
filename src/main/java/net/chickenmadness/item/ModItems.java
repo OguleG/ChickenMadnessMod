@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -24,10 +25,17 @@ public class ModItems {
     public static final Item record_old = registerItem("record_old", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item record_rest = registerItem("record_rest", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item alloy = registerItem("alloy", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item cooked_rapka = registerItem("cooked_rapka", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).build()).group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item dol_decoction = registerItem("dol_decoction", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
+<<<<<<< HEAD
+        public static final Item cooked_rapka = registerItem("cooked_rapka", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item dol_decoction = registerItem("dol_decoction", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE,20*10),1).build())).group(ModItemGroup.CHICKEN_MADNESS));
     public static final Item rapka_decoction = registerItem("rapka_decoction", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item decoction_of_luck = registerItem("decoction_of_luck", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
+=======
+    public static final Item cooked_rapka = registerItem("cooked_rapka", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item dol_decoction = registerItem("dol_decoction", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE,20*600), 1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item rapka_decoction = registerItem("rapka_decoction", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item decoction_of_luck = registerItem("decoction_of_luck", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+>>>>>>> c79455c44cef4ec5f990ea8892967768930bc768
 
 
 
