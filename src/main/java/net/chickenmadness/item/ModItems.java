@@ -25,9 +25,9 @@ public class ModItems {
     public static final Item record_rest = registerItem("record_rest", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item alloy = registerItem("alloy", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item cooked_rapka = registerItem("cooked_rapka", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).build()).group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item dol_decoction = registerItem("dol_decoction", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item rapka_decoction = registerItem("rapka_decoction", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item decoction_of_luck = registerItem("decoction_of_luck", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item dol_decoction = registerItem("dol_decoction", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item rapka_decoction = registerItem("rapka_decoction", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
+    public static final Item decoction_of_luck = registerItem("decoction_of_luck", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
 
 
 
