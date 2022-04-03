@@ -1,0 +1,51 @@
+{
+
+  "type": "minecraft:mobs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:mobs",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 1
+                }
+              ],
+              "name":"chickenmadness:rapka"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+    "type": "minecraft:mobs",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:mobs",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 1
+                  }
+                ],
+                "name":"chickenmadness:rapka"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+    }
