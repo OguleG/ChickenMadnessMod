@@ -24,7 +24,7 @@ public class ChickenMadness implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		LootTableRegister.register();
 
-		LOGGER.info("Hello Fabric world!");
 		LOGGER.info("Welcome to Chicken Madness!");
+		LOGGER.info("Let's kill some chickens!");
 	}
 }
