@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    "z#z",
+    " . "
+  ],
+  "key": {
+    "#": {
+       "item": "chickenmadness:lucky_grass"
+    },
+    ".": {
+      "item": "minecraft:bowl"
+    },
+    "z":{
+       "item":"minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "chickenmadness:decoction_of_luck"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    "z#z",
+    " . "
+  ],
+  "key": {
+    "#": {
+       "item": "chickenmadness:dolphin_heart"
+    },
+    ".": {
+      "item": "minecraft:bowl"
+    },
+    "z":{
+       "item":"minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "chickenmadness:dol_decoction"
+  }
+}

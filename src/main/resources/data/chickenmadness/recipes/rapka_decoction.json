@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    "z#z",
+    " . "
+  ],
+  "key": {
+    "#": {
+       "item": "chickenmadness:golden_chicken_rapka"
+    },
+    ".": {
+      "item": "minecraft:bowl"
+    },
+    "z":{
+       "item":"chickenmadness:chicken_rapka"
+    }
+  },
+  "result": {
+    "item": "chickenmadness:rapka_decoction"
+  }
+}
