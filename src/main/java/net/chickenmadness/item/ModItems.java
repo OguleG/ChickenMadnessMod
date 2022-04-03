@@ -20,9 +20,9 @@ public class ModItems {
     public static final Item chicken_rapka = registerItem("chicken_rapka", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.2f).build()).group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item golden_chicken_rapka = registerItem("golden_chicken_rapka", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item dolphin_heart = registerItem("dolphin_heart", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item record_cobble = registerItem("record_cobble", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item record_old = registerItem("record_old", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
-    public static final Item record_rest = registerItem("record_rest", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
+    //public static final Item record_cobble = registerItem("record_cobble", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
+    //public static final Item record_old = registerItem("record_old", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
+    //public static final Item record_rest = registerItem("record_rest", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item alloy = registerItem("alloy", new Item(new FabricItemSettings().group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item cooked_rapka = registerItem("cooked_rapka", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).build()).group(ModItemGroup.CHICKEN_MADNESS)));
     public static final Item dol_decoction = registerItem("dol_decoction", new Item(new FabricItemSettings().food(new FoodComponent.Builder().saturationModifier(0.4f).hunger(6).alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE,20*600), 1).build()).group(ModItemGroup.CHICKEN_MADNESS)));
