@@ -1,16 +1,16 @@
 {
 
-  "type": "minecraft:mobs",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
+          "type": "minecraft:entity",
           "children": [
             {
-              "type": "minecraft:mobs",
+              "type": "minecraft:entity",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -24,17 +24,17 @@
       ]
     }
   ],
-    "type": "minecraft:mobs",
+    "type": "minecraft:entity",
     "pools": [
       {
         "rolls": 1.0,
         "bonus_rolls": 0.0,
         "entries": [
           {
-            "type": "minecraft:alternatives",
+            "type": "minecraft:entity",
             "children": [
               {
-                "type": "minecraft:mobs",
+                "type": "minecraft:entity",
                 "conditions": [
                   {
                     "condition": "minecraft:random_chance",
