@@ -34,14 +34,14 @@
             "type": "minecraft:entity",
             "children": [
               {
-                "type": "minecraft:entity",
+                    "type": "minecraft:entity",
                 "conditions": [
                   {
                     "condition": "minecraft:random_chance",
                     "chance": 1
                   }
                 ],
-                "name":"chickenmadness:rapka"
+                "name":"chickenmadness:chicken_rapka"
               }
             ]
           }

@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 public class LootTableRegister {
         private static final Identifier GRASS_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/grass");
         private static final Identifier MOD_GRASS_LOOT_TABLE_ID = new Identifier(ChickenMadness.MOD_ID, "blocks/grass");
-        private static final Identifier CHICKEN_LOOT_TABLE_ID = new Identifier("minecraft","entity/chicken" );
-        private static final Identifier MOD_CHICKEN_LOOT_TABLE_ID = new Identifier(ChickenMadness.MOD_ID,"entity/chicken");
+        private static final Identifier CHICKEN_LOOT_TABLE_ID = new Identifier("minecraft","entities/chicken" );
+        private static final Identifier MOD_CHICKEN_LOOT_TABLE_ID = new Identifier(ChickenMadness.MOD_ID,"entities/chicken");
         public static void register() {
                 LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, id, table, setter) -> {
                         if (GRASS_LOOT_TABLE_ID.equals(id)) {
