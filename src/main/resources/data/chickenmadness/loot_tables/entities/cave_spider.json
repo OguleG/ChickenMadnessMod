@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
+      "rolls": 0.15,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -26,7 +26,7 @@
               }
             }
           ],
-          "name": "chickenmadness:dolphin_heart"
+          "name": "chickenmadness:emerald_spider_eye"
         }
       ]
     }
