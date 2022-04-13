@@ -3,7 +3,7 @@
    "type": "minecraft:block",
    "pools": [
      {
-       "rolls": 1.0,
+       "rolls": 0.05,
        "bonus_rolls": 0.0,
        "entries": [
          {
@@ -14,7 +14,7 @@
                "conditions": [
                  {
                    "condition": "minecraft:random_chance",
-                   "chance": 1
+                   "chance": 1.0
                  }
                ],
                "name":"chickenmadness:lucky_grass"
@@ -22,30 +22,27 @@
        ]
      }
    ]
- }
-],
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name":"chickenmadness:lucky_grass"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+ },
+  {
+         "rolls": 0.20,
+         "bonus_rolls": 0.0,
+         "entries": [
+           {
+             "type": "minecraft:alternatives",
+             "children": [
+               {
+                 "type": "minecraft:item",
+                 "conditions": [
+                   {
+                     "condition": "minecraft:random_chance",
+                     "chance": 1.0
+                   }
+                 ],
+                 "name":"chickenmadness:three_leaf_clover"
+               }
+             ]
+           }
+         ]
+       }
+     ]
 }
